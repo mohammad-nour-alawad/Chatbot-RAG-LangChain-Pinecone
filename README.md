@@ -16,23 +16,23 @@ To set up the project locally, follow these steps:
    cd random-fortune-telling-bot
    ```
 
-2. Create and activate a virtual environment:
-  ```
-  python3 -m venv venv
-  source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
-  ```
+2. **Create and activate a virtual environment:**
+   ```
+   python3 -m venv venv
+   source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+   ```
 
-3. Install dependencies:
-  ```
-  pip install -r requirements.txt
-  ```
+   3. **Install dependencies:**
+   ```
+   pip install -r requirements.txt
+   ```
 
-4. Usage: Please run it on Linux;
-  ```
-  export PINECONE_API_KEY=your_pinecone_api_key
-  export HUGGINGFACE_API_KEY=your_huggingface_api_key
-  ```
-then:
-  ```
-  streamlit run app.py
-  ```
+   4. **Usage:** Please run it on **Linux**
+   ```
+   export PINECONE_API_KEY=your_pinecone_api_key
+   export HUGGINGFACE_API_KEY=your_huggingface_api_key
+   ```
+   then:
+   ```
+   streamlit run app.py
+   ```
